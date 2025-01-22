@@ -11,13 +11,13 @@ The code in this repo uses Docker Compose to start up a small Flink cluster and 
 First build the image and start all of the containers:
 
 ```bash
-docker-compose up --build -d
+docker compose up --build -d
 ```
 
 Once the containers are running,
 
 ```bash
-docker-compose run sql-client
+docker compose run sql-client
 ```
 
 ## How to test the Flink-job
