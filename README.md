@@ -17,7 +17,7 @@ docker compose up --build -d
 Once the containers are running,
 
 ```bash
-docker compose exec -it jobmanager ./bin/sql-client.sh
+docker compose run sql-client
 ```
 
 ## How to test the Flink-job
